@@ -52,13 +52,150 @@ you can declare more then 1 variable of the same data type with "," but you shou
   int number; //declaration number as int
   number = 11; // assignment of number
   char character; // declaration character as char
-  character = 'T';// assignment of character, single quotes for single chaaracter (double quotes for multi characters, string type)
+  character = 'T'; // assignment of character, single quotes for single chaaracter (double quotes for multi characters, string type)
   int number = 11; // initialization - declaration and assignment in same line (instead of 2 lines like above
-  float decimal = 11.7 // initialization
+  float decimal = 11.7; // initialization
   
 you only habe to declare your variable 1 time, weird things happen if you declare same variable multiple times
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Operators
+
+Arithmetic Operators
+add +
+subtract -
+multiply *
+divide /
+modulus %; //give remainder number
+
+x = x * 5;
+x *= 5;
+
+increase x by 1
+  x = x + 1
+  x += 1
+  x++ //x-- to decrease by 1
+  
+Boolean expressions
+  comparing values
+  evaluate one of two values - true or false
+  used in conditionals and loops
+    conditionals - deciding which path to take in a fork
+    loop - deciding whether or not to continue the loop
+  sometime in Boolean expressions we use variables with type bool, but it's not required
+  in C every nonzero value is equivalent to true, and zero is false.
+  
+  two main types of Boolean expressions
+    logical operators
+      && - both variables have to be true
+      || - OR, if either variable to true
+      ! - NOT, x (true), !x (false)
+    relational operators 
+      < - less than
+      <= - less than or equal to
+      > - greater than
+      >= - greater than or equal to
+      == - equality, checks if the 2 variables have the same value
+      != - inequality, checks if the 2 variables have different value
+        = is assignment 
+        == is equality
+        DO NOT CONFUSE = AND ==
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
   
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
