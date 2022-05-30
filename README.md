@@ -83,7 +83,7 @@ Boolean expressions
   used in conditionals and loops
     conditionals - deciding which path to take in a fork
     loop - deciding whether or not to continue the loop
-  sometime in Boolean expressions we use variables with type bool, but it's not required
+  sometimes in Boolean expressions we use variables with type bool, but it's not required
   in C every nonzero value is equivalent to true, and zero is false.
   
   two main types of Boolean expressions
@@ -104,18 +104,103 @@ Boolean expressions
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
+conditionals
+  forks in the road depending on values of variable or user input
   
-
-
+  if (boolean-expression) 
+  {
+  }
   
+  if true "if" codes between {} will be executed in order 
+  if false codes between {} will not be exeuted
+  
+  if (boolean-expression) 
+  {
+  }
+  else
+  {
+  }
+  
+  if true "if" codes between {} will be executed in order 
+  if false "else" codes between {} will be exeuted in order
 
+  you can nest else if to create chains (mutually exclusive):
 
+  if (boolean-expression) 
+  {
+  }
+  else if (boolean-expression1)
+  {
+  }
+  else if (boolean-expression1)
+  {
+  }
+  else
+  {
+  }
+  
+  you can create not-mutually exclusive if else
+  
+  if (boolean-expression) 
+  {
+  }
+  if (boolean-expression1)
+  {
+  }
+  if (boolean-expression1)
+  {
+  }
+  else
+  {
+  }
+  
+  switch ()
+    depending on the input switch () will have varying outputs specified
+  
+  int x = getint();         //if the user enters 1, case 1 will be output and break; or the following cases does not execute ("fall through")
+  switch(x)
+  {
+    case 1:
+        printf("One!\n");
+        break;
+    case 2:
+        printf("Two!\n");
+        break;
+    case 3:
+        printf("Three!\n");
+        break;
+    default:
+        printf("Sorry!\n");
+        break;
+  }
+  
+   int x = getint();         //if the user enters 4, all code below case 4 will execute because there is no "break;" like the above
+  switch(x)
+  {
+    case 5:
+        printf("Five, ");
+    case 4:
+        printf("Four, ");
+    case 3:
+        printf("Three, ");
+    case 2:
+        printf("Two, ");
+    case 1:
+        printf("One, ");        
+    default:
+        printf("Blast off!\n");
+  }
+  
+  Ternary Operator
+  for simple cases when evaluate true or false, you can use  ?: 
+  
+  int x = (boolean expression) ? 5 : 6
+    if true x will be 5
+        before :
+    if false x will be 6
+        after :
 
-
-
-
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
