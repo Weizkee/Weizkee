@@ -202,17 +202,91 @@ conditionals
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Loops
+  allows program to execute lines of code repeatedly
+    while, do-while, for
+  
+  forever
+    while (true)
+    {
+    }
+    this is an infinite loop; lines of code between {} will execute repeatedly until you break (break; statement) or kill the program
+    
+  repeat until
+    while (boolean expression)
+    {
+    }
+    if boolean expression is true, lines of code between {} will execute over and over until boolean expression is false
+    
+  do while
+    do
+    {
+    }
+    while (boolean expression)
+    this loop will execute lines of code between {} once, then if boolean expression is true, it will go back and repeat code until boolean expression is false
+    guarantees code to run at least 1 time
+  
+  for loop
+    for (int i = 0; i < 10; i++)   //int i starts at 0; execute code between {} while i less than 10; increase i by 1 each run
+    {
+    }
+    repeat code between {} a specific number of times (10 times in above example)
+    for (start; expression; increment)
+    {
+    }
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-
-
-
-
-
-
-
-
+linux command line
+  unix-based system
+  ctrl + l
+    clears command line screen
+  ls
+    list - read out of all files in directory
+  cd
+    go to home folder
+  cd *name*
+    change directory to name
+  cd .. 
+    go to containing folder
+  pwd
+    present working directory
+  mkdir *name*
+    makes new folder with name
+  cp <source> <paste name>
+    make a copy of source (file cannot do directory)
+  cp -r <directory> <paste name>
+    make a copy of source (directory) 
+  rm <file name>
+    prompts y/n before removing file
+  rm -f <file name>
+    skips y/n prompt (there is no undo)
+  rm -r <directory>
+    prompts y/n before removing entire directory
+  rm -rf <directory>
+    skips y/n prompt (there is no undo)
+  mv <source> <new name>
+    rename source file to new name
+  chmoid
+  
+  rmdir
+  
+  sudo
+  
+  ln
+  
+  man
+  
+  clear
+  
+  touch
+  
+  diff
+  
+  telnet
+  
+  
+  
 
 
 
